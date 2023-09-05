@@ -111,6 +111,6 @@ jQuery( function() {
 
 	( function(){
 		loadCitiesJson();
-		jQuery( '#messages' ).on( 'keyup', calculate );
+		jQuery( '#messages' ).on( 'change', calculate );
 	} )();
 } );
